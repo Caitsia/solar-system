@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+img{
+    height: 50%;
+    width: 50%;
+}
+#container{
+    font-size: 6px;
+    width: 40em;
+    height: 40em;
+    position: relative;
+}
+#theSun{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+#theSun a {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#theSun a:hover {
+    transform: scale(1.05);
+}
+.card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #222;
+    color: white;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    z-index: 10;
+}
+
+.hidden {
+    display: none;
+}
+
+#closeCard {
+    margin-top: 1em;
+    background: crimson;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.star{
+    position: absolute;
+    background-color: aliceblue;
+    border-radius: 50%;
+    z-index: -1;
+
+}
