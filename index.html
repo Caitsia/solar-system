@@ -2,23 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="myscripts.js"></script>
-    <title>Document</title>
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Solar System</title>
 </head>
-
 <body>
-<div id="container">
-        <div id="theSun">
-        <img src= "orb.png"> 
-    </div>
-</div>
-<div id="infoCard" class="card hidden">
-    <h2>Solar Info</h2>
-    <p>This is the sun! It's a big ball of plasma keeping the solar system lit.</p>
-    <button id="closeCard">Close</button>
-</div>
-
+    <nav>
+        <ul class="nav-main">
+            <li><a href="index.html">Sun</a></li>
+            <li><a href="sun.html">Sun</a></li>
+            <li><a href="mercury.html">Mercury</a></li>
+            <li><a href="venus.html">Venus</a></li>
+            <li><a href="earth.html">Earth</a></li>
+            <li><a href="mars.html">Mars</a></li>
+            <li><a href="jupiter.html">Jupiter</a></li>
+            <li><a href="saturn.html">Saturn</a></li>
+            <li><a href="uranus.html">Uranus</a></li>
+            <li><a href="neptune.html">Neptune</a></li>
+        </ul>
+    </nav>
+    <header class="title-card">
+        <h1> Our Solar System </h1>
+    </header>
+        <canvas id="canvas" width="800" height="800"></canvas>
+    <section class="info-card">
+        <h2> About the Solar System</h2>
+        <p>Our solar system contains several celestial bodies including 
+            8 planets, 5 dwarf, 2 planets, an asteroid belt and several comets. 
+            They all orbit around The Sun, drawn in by it’s gravitational pull. 
+            Explore more about the planets in our Solar System on each of there respective pages.</p>
+    </section>>
+    <section class="info-card">
+        <header>
+            <h2>Mission statement</h2>
+        </header>
+            <p> Our goal is to provide information on our solar System through engaging and interactive means. 
+                We believe that interaction makes information more memorable. 
+                This website comes with in depth simulations and interactive cards. 
+                Navigation of this site is made to be intuitive while encouraging exploration. 
+                <!--seperated by sentence for easy dev legibility-->
+            </p>
+    </section>
+    <script src="simcode.js"></script>
 </body>
 </html>
